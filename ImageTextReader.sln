@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36212.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageTextReader.Api", "ImageTextReader\ImageTextReader.Api.csproj", "{1C4307A0-7C21-4A1C-8E55-B7749572A095}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageTextReader.Application", "ImageTextReader.Application\ImageTextReader.Application.csproj", "{0F055257-A643-4626-BA01-3934EB7FD38B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageTextReader.Domain", "ImageTextReader.Domain\ImageTextReader.Domain.csproj", "{FF6BAE91-EFDE-4F0B-8CCB-20225A35D768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageTextReader.Infrastructure", "ImageTextReader.Infrastructure\ImageTextReader.Infrastructure.csproj", "{BEEE90D5-7710-4C2F-8D9F-E6E9929D85BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C4307A0-7C21-4A1C-8E55-B7749572A095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4307A0-7C21-4A1C-8E55-B7749572A095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4307A0-7C21-4A1C-8E55-B7749572A095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4307A0-7C21-4A1C-8E55-B7749572A095}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F055257-A643-4626-BA01-3934EB7FD38B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F055257-A643-4626-BA01-3934EB7FD38B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F055257-A643-4626-BA01-3934EB7FD38B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F055257-A643-4626-BA01-3934EB7FD38B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF6BAE91-EFDE-4F0B-8CCB-20225A35D768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF6BAE91-EFDE-4F0B-8CCB-20225A35D768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF6BAE91-EFDE-4F0B-8CCB-20225A35D768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF6BAE91-EFDE-4F0B-8CCB-20225A35D768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEEE90D5-7710-4C2F-8D9F-E6E9929D85BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEEE90D5-7710-4C2F-8D9F-E6E9929D85BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEEE90D5-7710-4C2F-8D9F-E6E9929D85BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEEE90D5-7710-4C2F-8D9F-E6E9929D85BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {995AD31C-B143-40C3-9F41-FEDA461195CD}
+	EndGlobalSection
+EndGlobal

@@ -1,6 +1,6 @@
 ﻿namespace ImageTextReader.Domain.Interfaces
 {
-    public class IOcrService
+    public interface IOcrService
     {
         Task<string> ExtractTextAsync(byte[] imageData);
     }

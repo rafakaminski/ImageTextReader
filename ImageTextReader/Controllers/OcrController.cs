@@ -15,7 +15,7 @@ namespace ImageTextReader.Controllers
         }
 
         [HttpPost(Name = "extract-text")]
-        public async Task<IActionResult> ExtractText([FromBody] ImageTextReader request)
+        public async Task<IActionResult> ExtractText([FromBody] ImageTextReader.Domain.ValueObjects.ImageTextReader request)
         {
             try
             {
@@ -37,11 +37,6 @@ namespace ImageTextReader.Controllers
             {
                 return BadRequest(new { Error = ex.Message });
             }
-        }
-
-        public class ImageTextReader
-        {
-            public string ImageBase64 { get; set; }
-        }
+        }      
     }
 }

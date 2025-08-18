@@ -1,0 +1,19 @@
+[
+  {
+    "ContainingType": "ImageTextReader.Controllers.OcrController",
+    "Method": "ExtractText",
+    "RelativePath": "Ocr",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ImageTextReader.Domain.ValueObjects.ImageTextReader",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "extract-text"
+  }
+]
